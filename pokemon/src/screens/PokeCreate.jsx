@@ -4,9 +4,11 @@ import { createPoke } from '../services/pokemon'
 
 export default function PokeCreate(){
   const [pokemon, setPokemon] = useState({
-    _id: "",
-    name: "",
-    species: ""
+    species: {
+      name: String,
+      url: String,
+      
+   }
 
 
   })

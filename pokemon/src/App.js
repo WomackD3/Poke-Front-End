@@ -1,13 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Home from './screens/Home.jsx'
+import Pokemon2 from './components/Pokemon2'
+import "./Poke.scss"
 function App() {
 
-  const url = "https://pokemon-api-carlton-james-jr.herokuapp.com/pokemon"
-  fetch(url)
   return (
     <div className="App">
-      Wassup Mack
+      <h1>Wassup Mack</h1>
+
+
+      <Pokemon2 />
     </div>
   );
 }
